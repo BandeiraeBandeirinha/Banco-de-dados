@@ -23,7 +23,7 @@ show tables;
 describe tb_cliente;
 -- inserindo dados na tabela (Create)
 insert into tb_cliente values
-(1,'444.425.658/30','Geovani Matheus Bandeira','08568-300','Avenida Adutora','Adutora','622','oioioi','Jardim Nova Poá','Poá','SP','4638-0052','6969-6969','GMBandeira01@hotmail.com');
+(1,'466.448.468/30','Geovani Matheus Bandeira','08568-300','Avenida Adutora','Adutora','622','oioioi','Jardim Nova Poá','Poá','SP','4638-0052','6969-6969','GMBandeira01@hotmail.com');
 select * from tb_cliente;
 
 use dbinfox;
