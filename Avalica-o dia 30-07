@@ -109,6 +109,6 @@ select idos, equipamento, defeito, orcamento from tb_os;
 select idos as OS, equipamento as Equipamento, defeito as Defeito,tipos as Tipo, situacao as Situação, servico as Serviço, tecnico as Técnico, valor as Total from tb_os;
 
 select
-O.idos as OS,equipamento as Equipamento, defeito as Defeito, tipos as Tipo, situacao as Situação, servico as Serviço,tecnico as Técnico, valor as Total, C.nomecli as Nome, Fone1 as Fone, emailcli as Email
+O.idos as OS,equipamento as Equipamento, defeito as Defeito, tipos as Tipo, situacao as Situação, servico as Serviço,tecnico as Técnico, valor as Total, C.nomecli as Nome, Fone1 as Fone, emailcli as Email , data_os as Data
 from tb_os as O
 inner join tb_cliente as C on (O.idcli = C.idcli);
